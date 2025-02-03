@@ -38,7 +38,7 @@ if btnFiltrar:
  if doc is None:
   st.sidebar.write("Nombre no existe")
  else:
- st.sidebar.write(doc.to_dict())
+  st.sidebar.write(doc.to_dict())
 # ...
 st.sidebar.markdown("""---""")
 btnEliminar = st.sidebar.button("Eliminar")
